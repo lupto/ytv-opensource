@@ -1,0 +1,165 @@
+v {xschem version=3.1.0 file_version=1.2
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -240 -60 -220 -60 {}
+L 4 -240 80 -220 80 {}
+L 4 10 -360 10 -340 {}
+L 4 -240 -80 -220 -80 {}
+L 4 -240 -140 -220 -140 {}
+L 4 220 40 240 40 {}
+L 4 -240 -40 -220 -40 {}
+L 4 -240 -160 -220 -160 {}
+L 4 -10 -360 -10 -340 {}
+L 4 -240 -120 -220 -120 {}
+L 4 220 60 240 60 {}
+L 4 -240 100 -220 100 {}
+L 4 -240 -20 -220 -20 {}
+L 4 -240 -100 -220 -100 {}
+L 4 220 80 240 80 {}
+L 4 -240 120 -220 120 {}
+L 4 -240 0 -220 0 {}
+L 4 -240 160 -220 160 {}
+L 4 220 100 240 100 {}
+L 4 -240 140 -220 140 {}
+L 4 -240 20 -220 20 {}
+L 4 220 -100 240 -100 {}
+L 4 -240 40 -220 40 {}
+L 4 220 -80 240 -80 {}
+L 4 -240 60 -220 60 {}
+L 4 220 -120 240 -120 {}
+L 4 220 -60 240 -60 {}
+L 4 220 120 240 120 {}
+L 4 220 140 240 140 {}
+L 4 220 -40 240 -40 {}
+L 4 220 160 240 160 {}
+L 4 220 180 240 180 {}
+L 4 220 200 240 200 {}
+L 4 220 220 240 220 {}
+L 4 220 -240 240 -240 {}
+L 4 220 240 240 240 {}
+L 4 220 -20 240 -20 {}
+L 4 220 -260 240 -260 {}
+L 4 220 300 240 300 {}
+L 4 220 -280 240 -280 {}
+L 4 220 280 240 280 {}
+L 4 220 260 240 260 {}
+L 4 220 -220 240 -220 {}
+L 4 220 20 240 20 {}
+L 4 220 -140 240 -140 {}
+L 4 220 -180 240 -180 {}
+L 4 220 -200 240 -200 {}
+L 4 220 0 240 0 {}
+L 4 220 -160 240 -160 {}
+L 7 0 340 0 360 {}
+B 5 -242.5 -62.5 -237.5 -57.5 {name=READ_MODE dir=in }
+B 5 -242.5 77.5 -237.5 82.5 {name=VBL_READ dir=in }
+B 5 7.5 -362.5 12.5 -357.5 {name=SA_RDY[143:0] dir=out }
+B 5 -242.5 -82.5 -237.5 -77.5 {name=DI[15:0] dir=in }
+B 5 -242.5 -142.5 -237.5 -137.5 {name=AVDD dir=in }
+B 5 237.5 37.5 242.5 42.5 {name=READ_SLICE_ARRAY_ENB_PRE_5[8:0] dir=out }
+B 5 -242.5 -42.5 -237.5 -37.5 {name=READ_REF[6:0] dir=in }
+B 5 -242.5 -162.5 -237.5 -157.5 {name=ARRAY_EN dir=in }
+B 5 -12.5 -362.5 -7.5 -357.5 {name=SA_DO[143:0] dir=out }
+B 5 -2.5 357.5 2.5 362.5 {name=BL[2303:0] dir=inout }
+B 5 -242.5 -122.5 -237.5 -117.5 {name=AVSS dir=in }
+B 5 237.5 57.5 242.5 62.5 {name=READ_SLICE_COL_ADDR3B_PRE_5[8:0] dir=out }
+B 5 -242.5 97.5 -237.5 102.5 {name=VDD dir=in }
+B 5 -242.5 -22.5 -237.5 -17.5 {name=REF_MODE dir=in }
+B 5 -242.5 -102.5 -237.5 -97.5 {name=COL_ADDR[7:0] dir=in }
+B 5 237.5 77.5 242.5 82.5 {name=READ_SLICE_DI1_BUF[8:0] dir=out }
+B 5 -242.5 117.5 -237.5 122.5 {name=VSA dir=in }
+B 5 -242.5 -2.5 -237.5 2.5 {name=RESET_REF[6:0] dir=in }
+B 5 -242.5 157.5 -237.5 162.5 {name=WE dir=in }
+B 5 237.5 97.5 242.5 102.5 {name=READ_SLICE_READ_REF4_BUF[8:0] dir=out }
+B 5 -242.5 137.5 -237.5 142.5 {name=VSS dir=in }
+B 5 -242.5 17.5 -237.5 22.5 {name=SA_CLK dir=in }
+B 5 237.5 -102.5 242.5 -97.5 {name=READ_ROUT0_BLOCK_SA_EN_5[8:0] dir=out }
+B 5 -242.5 37.5 -237.5 42.5 {name=SA_EN dir=in }
+B 5 237.5 -82.5 242.5 -77.5 {name=READ_ROUT0_BL_EN_5[8:0] dir=out }
+B 5 -242.5 57.5 -237.5 62.5 {name=SET_REF[6:0] dir=in }
+B 5 237.5 -122.5 242.5 -117.5 {name=READ_ROUT0_BLOCK_SA_EN[8:0] dir=out }
+B 5 237.5 -62.5 242.5 -57.5 {name=READ_ROUT0_COL_SELECT0_5[8:0] dir=out }
+B 5 237.5 117.5 242.5 122.5 {name=READ_SLICE_REF_MODE_BUF[8:0] dir=out }
+B 5 237.5 137.5 242.5 142.5 {name=READ_SLICE_RESET_REF4_BUF[8:0] dir=out }
+B 5 237.5 -42.5 242.5 -37.5 {name=READ_ROUT15_SA_CLK_BUF[8:0] dir=out }
+B 5 237.5 157.5 242.5 162.5 {name=READ_SLICE_SA_CLK_PRE[8:0] dir=out }
+B 5 237.5 177.5 242.5 182.5 {name=READ_SLICE_SA_EN_PRE[8:0] dir=out }
+B 5 237.5 197.5 242.5 202.5 {name=READ_SLICE_SET_REF4_BUF[8:0] dir=out }
+B 5 237.5 217.5 242.5 222.5 {name=READ_SLICE_SLICE_SELECTB_PRE_5[8:0] dir=out }
+B 5 237.5 -242.5 242.5 -237.5 {name=READ_SLICE_SLICE_SELECT_PRE[8:0] dir=out }
+B 5 237.5 237.5 242.5 242.5 {name=READ_SLICE_WEB_PRE_5[8:0] dir=out }
+B 5 237.5 -22.5 242.5 -17.5 {name=READ_ROUT15_WE_5_BUF[8:0] dir=out }
+B 5 237.5 -262.5 242.5 -257.5 {name=COL_ADDR_BAR_5[0] dir=out }
+B 5 237.5 297.5 242.5 302.5 {name=WE_5 dir=out }
+B 5 237.5 -282.5 242.5 -277.5 {name=ARRAY_EN_BAR_5 dir=out }
+B 5 237.5 277.5 242.5 282.5 {name=SLICE_SELECT_BAR_5[8] dir=out }
+B 5 237.5 257.5 242.5 262.5 {name=SLICE_SELECT[8] dir=out }
+B 5 237.5 -222.5 242.5 -217.5 {name=READ_DI0 dir=out }
+B 5 237.5 17.5 242.5 22.5 {name=READ_SET_REF[1] dir=out }
+B 5 237.5 -142.5 242.5 -137.5 {name=READ_RESET_REF[0] dir=out }
+B 5 237.5 -182.5 242.5 -177.5 {name=READ_READ_REF[0] dir=out }
+B 5 237.5 -202.5 242.5 -197.5 {name=READ_READ_MODE dir=out }
+B 5 237.5 -2.5 242.5 2.5 {name=READ_SA_CLK dir=out }
+B 5 237.5 -162.5 242.5 -157.5 {name=READ_REF_MODE dir=out }
+P 4 5 220 -340 -220 -340 -220 340 220 340 220 -340 {}
+P 9 5 210 -310 210 -300 140 -300 140 -310 210 -310 {}
+T {@symname} -104.5 -6 0 0 0.3 0.3 {}
+T {@name} 195 -352 0 0 0.2 0.2 {}
+T {READ_MODE} -215 -64 0 0 0.2 0.2 {}
+T {VBL_READ} -215 76 0 0 0.2 0.2 {}
+T {SA_RDY[143:0]} 19 -335 1 0 0.2 0.2 {}
+T {DI[15:0]} -215 -84 0 0 0.2 0.2 {}
+T {AVDD} -215 -144 0 0 0.2 0.2 {}
+T {READ_SLICE_ARRAY_ENB_PRE_5[8:0]} 215 36 0 1 0.2 0.2 {}
+T {READ_REF[6:0]} -215 -44 0 0 0.2 0.2 {}
+T {ARRAY_EN} -215 -164 0 0 0.2 0.2 {}
+T {SA_DO[143:0]} -1 -335 1 0 0.2 0.2 {}
+T {BL[2303:0]} 4 335 1 1 0.2 0.2 {}
+T {AVSS} -215 -124 0 0 0.2 0.2 {}
+T {READ_SLICE_COL_ADDR3B_PRE_5[8:0]} 215 56 0 1 0.2 0.2 {}
+T {VDD} -215 96 0 0 0.2 0.2 {}
+T {REF_MODE} -215 -24 0 0 0.2 0.2 {}
+T {COL_ADDR[7:0]} -215 -104 0 0 0.2 0.2 {}
+T {READ_SLICE_DI1_BUF[8:0]} 215 76 0 1 0.2 0.2 {}
+T {VSA} -215 116 0 0 0.2 0.2 {}
+T {RESET_REF[6:0]} -215 -4 0 0 0.2 0.2 {}
+T {WE} -215 156 0 0 0.2 0.2 {}
+T {READ_SLICE_READ_REF4_BUF[8:0]} 215 96 0 1 0.2 0.2 {}
+T {VSS} -215 136 0 0 0.2 0.2 {}
+T {SA_CLK} -215 16 0 0 0.2 0.2 {}
+T {READ_ROUT0_BLOCK_SA_EN_5[8:0]} 215 -104 0 1 0.2 0.2 {}
+T {SA_EN} -215 36 0 0 0.2 0.2 {}
+T {READ_ROUT0_BL_EN_5[8:0]} 215 -84 0 1 0.2 0.2 {}
+T {SET_REF[6:0]} -215 56 0 0 0.2 0.2 {}
+T {READ_ROUT0_BLOCK_SA_EN[8:0]} 215 -124 0 1 0.2 0.2 {}
+T {READ_ROUT0_COL_SELECT0_5[8:0]} 215 -64 0 1 0.2 0.2 {}
+T {READ_SLICE_REF_MODE_BUF[8:0]} 215 116 0 1 0.2 0.2 {}
+T {READ_SLICE_RESET_REF4_BUF[8:0]} 215 136 0 1 0.2 0.2 {}
+T {READ_ROUT15_SA_CLK_BUF[8:0]} 215 -44 0 1 0.2 0.2 {}
+T {READ_SLICE_SA_CLK_PRE[8:0]} 215 156 0 1 0.2 0.2 {}
+T {READ_SLICE_SA_EN_PRE[8:0]} 215 176 0 1 0.2 0.2 {}
+T {READ_SLICE_SET_REF4_BUF[8:0]} 215 196 0 1 0.2 0.2 {}
+T {READ_SLICE_SLICE_SELECTB_PRE_5[8:0]} 215 236 0 1 0.2 0.2 {}
+T {READ_SLICE_SLICE_SELECT_PRE[8:0]} 215 -244 0 1 0.2 0.2 {}
+T {READ_SLICE_WEB_PRE_5[8:0]} 215 236 0 1 0.2 0.2 {}
+T {READ_ROUT15_WE_5_BUF[8:0]} 215 -24 0 1 0.2 0.2 {}
+T {COL_ADDR_BAR_5[0]} 215 -264 0 1 0.2 0.2 {}
+T {WE_5} 215 296 0 1 0.2 0.2 {}
+T {ARRAY_EN_BAR_5} 215 -284 0 1 0.2 0.2 {}
+T {SLICE_SELECT_BAR_5[8]} 215 276 0 1 0.2 0.2 {}
+T {SLICE_SELECT[8]} 215 256 0 1 0.2 0.2 {}
+T {READ_DI0} 215 -224 0 1 0.2 0.2 {}
+T {READ_SET_REF[1]} 215 16 0 1 0.2 0.2 {}
+T {READ_RESET_REF[0]} 215 -144 0 1 0.2 0.2 {}
+T {READ_READ_REF[0]} 215 -184 0 1 0.2 0.2 {}
+T {READ_READ_MODE} 215 -204 0 1 0.2 0.2 {}
+T {READ_SA_CLK} 215 -4 0 1 0.2 0.2 {}
+T {READ_REF_MODE} 215 -164 0 1 0.2 0.2 {}
+T {Probing} 160 -310 0 0 0.2 0.2 {}
